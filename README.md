@@ -1,3 +1,7 @@
+Script for training the DNABERT model for AS effect prediction. \
+The model adds an 1-layer FC net on top of the token/sequence embedding of DNABERT to predict whether the center SNP is sensitive to AS effects. \
+Uses pre-trained DNABERT weights.
+
 ## Requirements
 DNABERT (https://github.com/jerryji1993/DNABERT) \
 pytorch                   1.7.1 \
