@@ -9,7 +9,7 @@ cudatoolkit               11.0.221
 
 ## Example
 KMER: 3, 4, 5 or 6\
-MODEL_PATH: where the pre-trained DNABERT model is located
+MODEL_PATH: where the pre-trained DNABERT model is located \
 python3 1.ft_bert.py \
     --model_type ${model} \
     --tokenizer_name=dna$KMER \
